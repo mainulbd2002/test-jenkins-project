@@ -14,7 +14,8 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 {
 	source: "Mule",
 	name: "Mule Jenkins app",
-	branch: "Develop"
+	branch: "Develop",
+	attempts: "1"
 }]' doc:name="Set Payload" doc:id="86204f1e-fb63-45e6-b7ae-170ca7aefca1" />
 		<logger level="INFO" doc:name="Logger" doc:id="20a22faf-bca1-44df-93bb-b15d770568f6" message="#[payload]"/>
 	</flow>
